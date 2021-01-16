@@ -39,4 +39,4 @@ At the moment it only works with these apps but soon I will add to Microsoft Tea
 
 - Questions on my twitter or discord, everything is on my profile.
 
-- Mac and linux need changes.
+- Mac and linux users need changes.
