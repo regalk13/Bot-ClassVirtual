@@ -14,30 +14,30 @@ def zoom_meeting(meetingid, pswd):
 
     time.sleep(10)
     
-    #clicks the join button
+    
     join_btn = pyautogui.locateCenterOnScreen('data/join_button.png')
     pyautogui.moveTo(join_btn)
     pyautogui.click()
 
-    # Type the meeting ID
+   
     meeting_id_btn =  pyautogui.locateCenterOnScreen('data/meeting_id_button.png')
     pyautogui.moveTo(meeting_id_btn)
     pyautogui.write(meetingid)
 
-    # Disables both the camera and the mic
+    
     media_btn = pyautogui.locateAllOnScreen('data/media_btn.png')
     for btn in media_btn:
         pyautogui.moveTo(btn)
         pyautogui.click()
         time.sleep(2)
 
-    # Hits the join button
+    
     join_btn = pyautogui.locateCenterOnScreen('data/join_btn.png')
     pyautogui.moveTo(join_btn)
     pyautogui.click()
     
     time.sleep(5)
-    #Types the password and hits enter
+  
     meeting_pswd_btn = pyautogui.locateCenterOnScreen('data/meeting_pswd.png')
     pyautogui.moveTo(meeting_pswd_btn)
     pyautogui.click()
@@ -67,9 +67,7 @@ def alert(lecture:str):
     toaster.show_toast("Class Notification", f"{lecture} class right now...")
 
 def join_class():
-    """
-    Checks if there is any class on a particular date by extracting data from timetable.xlsx.
-    """
+  
     timetable = pd.read_excel(r"classtime.xlsx", sheet_name=datetime.now().strftime("%A"))
     current_time = datetime.now().strftime("%H:%M")
     current_hour = int(datetime.now().strftime("%H"))
