@@ -10,7 +10,7 @@ This is a bot that, with the help of ppandas, reads an .xlsx file, looks at what
 At the moment it only works with these apps but soon I will add to Microsoft Teams, I hope you like it and can use it...
 
 
-![Showcase of project gif](demonstrations/Sigin in Google meet.gif)
+![Showcase of project gif](Sigin in Google meet.gif)
 
 ## Requirements
 
