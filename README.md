@@ -9,7 +9,7 @@ This is a bot that, with the help of ppandas, reads an .xlsx file, looks at what
 
 At the moment it only works with these apps but soon I will add to Microsoft Teams, I hope you like it and can use it...
 
-**Requirements
+## Requirements
 
 - Python 3.8.x
 
@@ -29,7 +29,7 @@ At the moment it only works with these apps but soon I will add to Microsoft Tea
 
 - All in the final stable version
 
-**Final notes
+## Final notes
 
 - Remember change the data for you needs
 
