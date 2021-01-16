@@ -9,33 +9,34 @@ This is a bot that, with the help of ppandas, reads an .xlsx file, looks at what
 
 At the moment it only works with these apps but soon I will add to Microsoft Teams, I hope you like it and can use it...
 
-
-![Showcase of project gif](Sigin in Google meet.gif)
+<img src="/demonstrations/Sigin in Google meet.gif" width="700">
 
 ## Requirements
 
-- Python 3.8.x
+- Python 3.8.x.
 
-- subprocess
+- subprocess.
 
-- pyautogui
+- pyautogui.
 
-- win10toast
+- win10toast.
 
-- pandas
+- pandas.
 
-- datetime
+- datetime.
 
-- os
+- os.
 
-- keyboard
+- keyboard.
 
-- All in the final stable version
+- All in the final stable version.
 
 ## Final notes
 
-- Remember change the data for you needs
+- Remember change the data for you needs.
 
-- If you have a hard disk so slow, add more seconds to sleep
+- If you have a hard disk so slow, add more seconds to sleep.
 
-- Questions on my twitter or discord, everything is on my profile
+- Questions on my twitter or discord, everything is on my profile.
+
+- Mac and linux need changes.
