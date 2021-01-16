@@ -15,19 +15,19 @@ At the moment it only works with these apps but soon I will add to Microsoft Tea
 
 - Python 3.8.x [here](https://www.python.org/downloads/).
 
-- subprocess [here](https://docs.python.org/3/library/subprocess.html).
+- Subprocess [here](https://docs.python.org/3/library/subprocess.html).
 
-- pyautogui [here](https://pyautogui.readthedocs.io/en/latest/).
+- Pyautogui [here](https://pyautogui.readthedocs.io/en/latest/).
 
-- win10toast [here](https://pypi.org/project/win10toast/).
+- Win10toast [here](https://pypi.org/project/win10toast/).
 
-- pandas [here](https://pandas.pydata.org/).
+- Pandas [here](https://pandas.pydata.org/).
 
-- datetime [here](https://docs.python.org/3/library/datetime.html).
+- Datetime [here](https://docs.python.org/3/library/datetime.html).
 
-- os [here](https://docs.python.org/3/library/os.html).
+- Os [here](https://docs.python.org/3/library/os.html).
 
-- keyboard [here](https://pypi.org/project/keyboard/).
+- Keyboard [here](https://pypi.org/project/keyboard/).
 
 - All in the final stable version.
 
