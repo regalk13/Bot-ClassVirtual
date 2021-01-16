@@ -13,23 +13,25 @@ At the moment it only works with these apps but soon I will add to Microsoft Tea
 
 ## Requirements
 
-- Python 3.8.x.
+- Python 3.8.x [here](https://www.python.org/downloads/).
 
-- subprocess.
+- subprocess [here](https://docs.python.org/3/library/subprocess.html).
 
-- pyautogui.
+- pyautogui [here](https://pyautogui.readthedocs.io/en/latest/).
 
-- win10toast.
+- win10toast [here](https://pypi.org/project/win10toast/).
 
-- pandas.
+- pandas [here](https://pandas.pydata.org/).
 
-- datetime.
+- datetime [here](https://docs.python.org/3/library/datetime.html).
 
-- os.
+- os [here](https://docs.python.org/3/library/os.html).
 
-- keyboard.
+- keyboard [here](https://pypi.org/project/keyboard/).
 
 - All in the final stable version.
+
+- .xlsx file viewer, like excel.
 
 ## Final notes
 
