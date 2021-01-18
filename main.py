@@ -61,21 +61,19 @@ def google_meet(meeting_link:str):
     keyboard.send('tab', do_press=True, do_release=True)
     keyboard.send('enter', do_press=True, do_release=True)
 
-
 def alert(lecture:str):
     toaster = ToastNotifier()
     toaster.show_toast("Class Notification", f"{lecture} class right now...")
 
 def join_class():
-  
     timetable = pd.read_excel(r"classtime.xlsx", sheet_name=datetime.now().strftime("%A"))
     current_time = datetime.now().strftime("%H:%M")
     current_hour = int(datetime.now().strftime("%H"))
     current_minute = int(datetime.now().strftime("%M"))
 
     for _, item in timetable.iterrows():
-        class_hour = int(item["Class Time"].split(":")[0])
-        class_minute = int(item["Class Time"].split(":")[-1])
+        class_hour = int(item["Class Time"].strftime("%H"))
+        class_minute = int(item["Class Time"].strftime("%M"))
 
         if class_hour == current_hour and current_minute == class_minute:
             class_name = item["Class Name"]
